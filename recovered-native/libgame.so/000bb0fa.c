@@ -1,0 +1,27 @@
+/* Decompiled reference only. Not original C/C++; not built into APK. */
+/* Address: 000bb0fa  Symbol: ani_attack_3_ani */
+
+/* ani_attack_3_ani(cocos2d::CCLayer*) */
+
+void ani_attack_3_ani(CCLayer *param_1)
+
+{
+  int iVar1;
+  int *piVar2;
+  
+  iVar1 = (**(code **)(*(int *)param_1 + 0xa8))();
+  if ((*(int *)(*(int *)(iVar1 + 4) + 100) != 6) &&
+     (piVar2 = (int *)(**(code **)(*(int *)param_1 + 0xa8))(param_1), *(int *)(*piVar2 + 0x18) != 0)
+     ) {
+    iVar1 = (**(code **)(*(int *)param_1 + 0xa8))(param_1);
+    *(undefined4 *)(*(int *)(iVar1 + 4) + 100) = 6;
+    iVar1 = (**(code **)(*(int *)param_1 + 0xa8))(param_1);
+    *(undefined4 *)(*(int *)(iVar1 + 4) + 0x3c) = 0;
+    ani_ani_test_Stop((CCSprite *)param_1);
+    piVar2 = (int *)(**(code **)(*(int *)param_1 + 0xa8))(param_1);
+    ani_ani_test_Hero((CCSprite *)param_1,*(_KG_Anit **)(*piVar2 + 0x18));
+  }
+  return;
+}
+
+

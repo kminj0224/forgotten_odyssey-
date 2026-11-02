@@ -1,0 +1,19 @@
+/* Decompiled reference only. Not original C/C++; not built into APK. */
+/* Address: 00211700  Symbol: FUN_00211700 */
+
+uint FUN_00211700(uint *param_1,uint param_2)
+
+{
+  code *pcVar1;
+  int iVar2;
+  uint uVar3;
+  
+  pcVar1 = DAT_00211738;
+  do {
+    uVar3 = ~(param_2 & *param_1);
+    iVar2 = (*pcVar1)(*param_1,uVar3,param_1);
+  } while (iVar2 != 0);
+  return uVar3;
+}
+
+

@@ -1,0 +1,85 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          2497440 (bytes into file)
+  Flags:                             0x5000000, Version5 EABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         7
+  Size of section headers:           40 (bytes)
+  Number of section headers:         23
+  Section header string table index: 22
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .dynsym           DYNSYM          00000114 000114 01e850 10   A  2   1  4
+  [ 2] .dynstr           STRTAB          0001e964 01e964 04669f 00   A  0   0  1
+  [ 3] .hash             HASH            00065004 065004 00ba28 04   A  1   0  4
+  [ 4] .rel.dyn          REL             00070a2c 070a2c 035f78 08   A  1   0  4
+  [ 5] .rel.plt          REL             000a69a4 0a69a4 0006b0 08   A  1   6  4
+  [ 6] .plt              PROGBITS        000a7054 0a7054 000a1c 00  AX  0   0  4
+  [ 7] .text             PROGBITS        000a7a70 0a7a70 15c5f0 00  AX  0   0  8
+  [ 8] .ARM.extab        PROGBITS        00204060 204060 0068f4 00   A  0   0  4
+  [ 9] .ARM.exidx        ARM_EXIDX       0020a954 20a954 00ccc0 08  AL  7   0  4
+  [10] .rodata           PROGBITS        00217618 217618 0242e8 00   A  0   0  8
+  [11] .data.rel.ro[...] PROGBITS        0023d1e0 23c1e0 003dec 00  WA  0   0  4
+  [12] .fini_array       FINI_ARRAY      00240fcc 23ffcc 000008 00  WA  0   0  4
+  [13] .init_array       INIT_ARRAY      00240fd4 23ffd4 00028c 00  WA  0   0  4
+  [14] .data.rel.ro      PROGBITS        00241260 240260 017ad4 00  WA  0   0  8
+  [15] .dynamic          DYNAMIC         00258d34 257d34 000120 08  WA  2   0  4
+  [16] .got              PROGBITS        00258e58 257e58 0011a8 00  WA  0   0  4
+  [17] .data             PROGBITS        0025a000 259000 0084cc 00  WA  0   0  4
+  [18] .bss              NOBITS          002624d0 2614cc 00b028 00  WA  0   0  8
+  [19] .comment          PROGBITS        00000000 2614cc 0005b4 00      0   0  1
+  [20] .note.gnu.go[...] NOTE            00000000 261a80 00001c 00      0   0  4
+  [21] .ARM.attributes   ARM_ATTRIBUTES  00000000 261a9c 00002b 00      0   0  1
+  [22] .shstrtab         STRTAB          00000000 261ac7 0000d8 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+Dynamic section at offset 0x257d34 contains 31 entries:
+  Tag        Type                         Name/Value
+ 0x00000003 (PLTGOT)                     0x259c9c
+ 0x00000002 (PLTRELSZ)                   1712 (bytes)
+ 0x00000017 (JMPREL)                     0xa69a4
+ 0x00000014 (PLTREL)                     REL
+ 0x00000011 (REL)                        0x70a2c
+ 0x00000012 (RELSZ)                      221048 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffa (RELCOUNT)                   27616
+ 0x00000006 (SYMTAB)                     0x114
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000005 (STRTAB)                     0x1e964
+ 0x0000000a (STRSZ)                      288415 (bytes)
+ 0x00000004 (HASH)                       0x65004
+ 0x00000001 (NEEDED)                     Shared library: [libcocosdenshion.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgamedaylib.so]
+ 0x00000001 (NEEDED)                     Shared library: [liblog.so]
+ 0x00000001 (NEEDED)                     Shared library: [libz.so]
+ 0x00000001 (NEEDED)                     Shared library: [libGLESv1_CM.so]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdl.so]
+ 0x0000000e (SONAME)                     Library soname: [libgame.so]
+ 0x0000001a (FINI_ARRAY)                 0x240fcc
+ 0x0000001c (FINI_ARRAYSZ)               8 (bytes)
+ 0x00000019 (INIT_ARRAY)                 0x240fd4
+ 0x0000001b (INIT_ARRAYSZ)               652 (bytes)
+ 0x00000010 (SYMBOLIC)                   0x0
+ 0x0000001e (FLAGS)                      SYMBOLIC BIND_NOW
+ 0x6ffffffb (FLAGS_1)                    Flags: NOW
+ 0x00000000 (NULL)                       0x0

@@ -1,0 +1,15 @@
+/* Decompiled reference only. Not original C/C++; not built into APK. */
+/* Address: 0011934c  Symbol: KG_State_SlipDown_CALL */
+
+/* KG_State_SlipDown_CALL(cocos2d::CCLayer*, cocos2d::CCLayer*) */
+
+void KG_State_SlipDown_CALL(CCLayer *param_1,CCLayer *param_2)
+
+{
+  float in_s0;
+  
+  SetKnockBack(param_2,in_s0);
+  return;
+}
+
+
