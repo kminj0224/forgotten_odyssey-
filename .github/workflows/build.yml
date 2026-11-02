@@ -1,0 +1,27 @@
+name: Build modified APK
+on:
+  workflow_dispatch:
+  push:
+    paths: ['apk/**', 'tools/build.py', 'tools/align_zip.py', '.github/workflows/build.yml']
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild modified APK
+        run: |
+          if [ ! -d apk ]; then echo 'Run recovery first'; exit 1; fi
+          python tools/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: forgotten-odyssey-debug-apk
+          path: dist/signed/*.apk
