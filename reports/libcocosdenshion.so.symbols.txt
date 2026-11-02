@@ -1,0 +1,410 @@
+
+Symbol table '.dynsym' contains 407 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_finalize
+     2: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_atexit
+     3: 00005b15     2 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::SimpleAudioEngine()
+     4: 000114e0     8 FUNC    GLOBAL DEFAULT    7 __aeabi_unwind_cpp_pr0
+     5: 00005b17     2 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::~SimpleAudioEngine()
+     6: 00005b19    44 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::sharedEngine()
+     7: 00006294   176 FUNC    GLOBAL DEFAULT    7 operator new(unsigned int)
+     8: 00005b15     2 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::SimpleAudioEngine()
+     9: 00005b45     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::end()
+    10: 0000603d    52 FUNC    GLOBAL DEFAULT    7 endJNI
+    11: 000114d8     8 FUNC    WEAK   DEFAULT    7 __aeabi_unwind_cpp_pr1
+    12: 00005b4d     2 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::setResource(char const*)
+    13: 00005b4f    10 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::preloadBackgroundMusic(char const*)
+    14: 00005d7d    76 FUNC    GLOBAL DEFAULT    7 preloadBackgroundMusicJNI
+    15: 00005b59    12 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::playBackgroundMusic(char const*, bool)
+    16: 00005dc9    84 FUNC    GLOBAL DEFAULT    7 playBackgroundMusicJNI
+    17: 00005b65     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::stopBackgroundMusic(bool)
+    18: 00005e1d    52 FUNC    GLOBAL DEFAULT    7 stopBackgroundMusicJNI
+    19: 00005b6d     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::pauseBackgroundMusic()
+    20: 00005e51    52 FUNC    GLOBAL DEFAULT    7 pauseBackgroundMusicJNI
+    21: 00005b75     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::resumeBackgroundMusic()
+    22: 00005e85    52 FUNC    GLOBAL DEFAULT    7 resumeBackgroundMusicJNI
+    23: 00005b7d     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::rewindBackgroundMusic()
+    24: 00005eb9    52 FUNC    GLOBAL DEFAULT    7 rewindBackgroundMusicJNI
+    25: 00005b85     4 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::willPlayBackgroundMusic()
+    26: 00005b89     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::isBackgroundMusicPlaying()
+    27: 00005eed    60 FUNC    GLOBAL DEFAULT    7 isBackgroundMusicPlayingJNI
+    28: 00005b91     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::getBackgroundMusicVolume()
+    29: 00005f29    64 FUNC    GLOBAL DEFAULT    7 getBackgroundMusicVolumeJNI
+    30: 00005b99    10 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::setBackgroundMusicVolume(float)
+    31: 00005f69    72 FUNC    GLOBAL DEFAULT    7 setBackgroundMusicVolumeJNI
+    32: 00005ba3     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::getEffectsVolume()
+    33: 00006071    64 FUNC    GLOBAL DEFAULT    7 getEffectsVolumeJNI
+    34: 00005bab    10 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::setEffectsVolume(float)
+    35: 000060b1    72 FUNC    GLOBAL DEFAULT    7 setEffectsVolumeJNI
+    36: 00005bb5    12 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::playEffect(char const*, bool)
+    37: 00005fb1    88 FUNC    GLOBAL DEFAULT    7 playEffectJNI
+    38: 00005bc1    10 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::stopEffect(unsigned int)
+    39: 00006009    52 FUNC    GLOBAL DEFAULT    7 stopEffectJNI
+    40: 00005bcb    10 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::preloadEffect(char const*)
+    41: 000060f9    76 FUNC    GLOBAL DEFAULT    7 preloadEffectJNI
+    42: 00005bd5    10 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::unloadEffect(char const*)
+    43: 00006145    76 FUNC    GLOBAL DEFAULT    7 unloadEffectJNI
+    44: 00005bdf    10 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::pauseEffect(unsigned int)
+    45: 00006191    52 FUNC    GLOBAL DEFAULT    7 pauseEffectJNI
+    46: 00005be9     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::pauseAllEffects()
+    47: 000061c5    52 FUNC    GLOBAL DEFAULT    7 pauseAllEffectsJNI
+    48: 00005bf1    10 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::resumeEffect(unsigned int)
+    49: 000061f9    52 FUNC    GLOBAL DEFAULT    7 resumeEffectJNI
+    50: 00005bfb     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::resumeAllEffects()
+    51: 0000622d    52 FUNC    GLOBAL DEFAULT    7 resumeAllEffectsJNI
+    52: 00005c03     8 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::stopAllEffects()
+    53: 00006261    52 FUNC    GLOBAL DEFAULT    7 stopAllEffectsJNI
+    54: 00005b17     2 FUNC    GLOBAL DEFAULT    7 CocosDenshion::SimpleAudioEngine::~SimpleAudioEngine()
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND __android_log_print
+    56: 00005ced    10 FUNC    WEAK   DEFAULT    7 _JNIEnv::DeleteLocalRef(_jobject*)
+    57: 00005cf7    28 FUNC    WEAK   DEFAULT    7 _JNIEnv::CallStaticBooleanMethod(_jclass*, _jmethodID*, ...)
+    58: 00005d13    28 FUNC    WEAK   DEFAULT    7 _JNIEnv::CallStaticIntMethod(_jclass*, _jmethodID*, ...)
+    59: 00005d2f    28 FUNC    WEAK   DEFAULT    7 _JNIEnv::CallStaticFloatMethod(_jclass*, _jmethodID*, ...)
+    60: 00005d4b    28 FUNC    WEAK   DEFAULT    7 _JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)
+    61: 00005d69    20 FUNC    GLOBAL DEFAULT    7 JNI_OnLoad
+    62: 0000fcd0    64 FUNC    GLOBAL DEFAULT    7 __aeabi_f2d
+    63: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc
+    64: 000064bc   292 FUNC    GLOBAL DEFAULT    7 __cxa_allocate_exception
+    65: 00007cf8   160 FUNC    GLOBAL DEFAULT    7 __cxa_throw
+    66: 000068f0     0 FUNC    GLOBAL DEFAULT    7 __cxa_end_cleanup
+    67: 00006d18   452 FUNC    GLOBAL DEFAULT    7 __cxa_call_unexpected
+    68: 000157d8    20 OBJECT  GLOBAL DEFAULT   13 vtable for std::bad_alloc
+    69: 000157c8    12 OBJECT  GLOBAL DEFAULT   13 typeinfo for std::bad_alloc
+    70: 00006354    40 FUNC    GLOBAL DEFAULT    7 std::bad_alloc::~bad_alloc()
+    71: 00006344    16 FUNC    GLOBAL DEFAULT    7 std::bad_alloc::what() const
+    72: 00006354    40 FUNC    GLOBAL DEFAULT    7 std::bad_alloc::~bad_alloc()
+    73: 000070a8    24 FUNC    GLOBAL DEFAULT    7 std::exception::~exception()
+    74: 0000637c    28 FUNC    GLOBAL DEFAULT    7 std::bad_alloc::~bad_alloc()
+    75: 00006398    12 FUNC    GLOBAL DEFAULT    7 operator delete(void*)
+    76: 00013294    13 OBJECT  GLOBAL DEFAULT   10 typeinfo name for std::bad_alloc
+    77: 00015cc0    44 OBJECT  GLOBAL DEFAULT   13 vtable for __cxxabiv1::__si_class_type_info
+    78: 00015844     8 OBJECT  GLOBAL DEFAULT   13 typeinfo for std::exception
+    79: 00000000     0 FUNC    GLOBAL DEFAULT  UND free
+    80: 000063a4    12 FUNC    GLOBAL DEFAULT    7 operator delete(void*, unsigned int)
+    81: 00007260   144 FUNC    GLOBAL DEFAULT    7 __cxa_get_globals
+    82: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset
+    83: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_lock
+    84: 00007c04    28 FUNC    GLOBAL DEFAULT    7 std::terminate()
+    85: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_unlock
+    86: 000065e0   228 FUNC    GLOBAL DEFAULT    7 __cxa_free_exception
+    87: 000066c4   292 FUNC    GLOBAL DEFAULT    7 __cxa_allocate_dependent_exception
+    88: 000067e8   240 FUNC    GLOBAL DEFAULT    7 __cxa_free_dependent_exception
+    89: 00006b60   172 FUNC    GLOBAL DEFAULT    7 __gnu_end_cleanup
+    90: 00011b90    36 FUNC    GLOBAL DEFAULT    7 _Unwind_Resume
+    91: 00006900   428 FUNC    GLOBAL DEFAULT    7 __cxa_type_match
+    92: 00006c54    72 FUNC    GLOBAL DEFAULT    7 __cxa_bad_typeid
+    93: 00015874     8 OBJECT  GLOBAL DEFAULT   13 typeinfo for __cxxabiv1::__foreign_exception
+    94: 00015c48    16 OBJECT  WEAK   DEFAULT   13 typeinfo for void*
+    95: 00015c58     8 OBJECT  WEAK   DEFAULT   13 typeinfo for void
+    96: 0001583c     8 OBJECT  GLOBAL DEFAULT   13 typeinfo for __cxxabiv1::__forced_unwind
+    97: 00006aac   180 FUNC    GLOBAL DEFAULT    7 __cxa_begin_cleanup
+    98: 00006c0c    72 FUNC    GLOBAL DEFAULT    7 __cxa_bad_cast
+    99: 00015d38    20 OBJECT  GLOBAL DEFAULT   13 vtable for std::bad_cast
+   100: 00015d28    12 OBJECT  GLOBAL DEFAULT   13 typeinfo for std::bad_cast
+   101: 00008230    40 FUNC    GLOBAL DEFAULT    7 std::bad_cast::~bad_cast()
+   102: 00015d50    20 OBJECT  GLOBAL DEFAULT   13 vtable for std::bad_typeid
+   103: 00015d68    12 OBJECT  GLOBAL DEFAULT   13 typeinfo for std::bad_typeid
+   104: 00008284    40 FUNC    GLOBAL DEFAULT    7 std::bad_typeid::~bad_typeid()
+   105: 00006ee4   216 FUNC    GLOBAL DEFAULT    7 __cxa_begin_catch
+   106: 00007bcc    56 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__terminate(void (*)())
+   107: 00007c30    28 FUNC    GLOBAL DEFAULT    7 std::unexpected()
+   108: 00007c20    16 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__unexpected(void (*)())
+   109: 00007218    72 FUNC    GLOBAL DEFAULT    7 __cxa_get_globals_fast
+   110: 00007d98   180 FUNC    GLOBAL DEFAULT    7 __cxa_rethrow
+   111: 00006fbc   212 FUNC    GLOBAL DEFAULT    7 __cxa_end_catch
+   112: 00015868    12 OBJECT  GLOBAL DEFAULT   13 typeinfo for std::bad_exception
+   113: 00015850    20 OBJECT  GLOBAL DEFAULT   13 vtable for std::bad_exception
+   114: 000070c0    40 FUNC    GLOBAL DEFAULT    7 std::bad_exception::~bad_exception()
+   115: 00006edc     8 FUNC    GLOBAL DEFAULT    7 __cxa_get_exception_ptr
+   116: 00011994     4 FUNC    GLOBAL DEFAULT    7 _Unwind_Complete
+   117: 00011998    32 FUNC    GLOBAL DEFAULT    7 _Unwind_DeleteException
+   118: 00007090    24 FUNC    GLOBAL DEFAULT    7 std::uncaught_exception()
+   119: 000158b0    20 OBJECT  GLOBAL DEFAULT   13 vtable for std::exception
+   120: 000070c0    40 FUNC    GLOBAL DEFAULT    7 std::bad_exception::~bad_exception()
+   121: 000070e8    24 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__forced_unwind::~__forced_unwind()
+   122: 00015880    20 OBJECT  GLOBAL DEFAULT   13 vtable for __cxxabiv1::__forced_unwind
+   123: 00007100    24 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__foreign_exception::~__foreign_exception()
+   124: 00015898    20 OBJECT  GLOBAL DEFAULT   13 vtable for __cxxabiv1::__foreign_exception
+   125: 00007118    16 FUNC    GLOBAL DEFAULT    7 std::exception::what() const
+   126: 00007128    16 FUNC    GLOBAL DEFAULT    7 std::bad_exception::what() const
+   127: 00007138    28 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__foreign_exception::~__foreign_exception()
+   128: 00007100    24 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__foreign_exception::~__foreign_exception()
+   129: 00007154    28 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__forced_unwind::~__forced_unwind()
+   130: 000070e8    24 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__forced_unwind::~__forced_unwind()
+   131: 00007170    28 FUNC    GLOBAL DEFAULT    7 std::bad_exception::~bad_exception()
+   132: 0000718c    28 FUNC    GLOBAL DEFAULT    7 std::exception::~exception()
+   133: 000070a8    24 FUNC    GLOBAL DEFAULT    7 std::exception::~exception()
+   134: 000133ac    13 OBJECT  GLOBAL DEFAULT   10 typeinfo name for std::exception
+   135: 000133bc    18 OBJECT  GLOBAL DEFAULT   10 typeinfo name for std::bad_exception
+   136: 00013344    32 OBJECT  GLOBAL DEFAULT   10 typeinfo name for __cxxabiv1::__forced_unwind
+   137: 00013364    36 OBJECT  GLOBAL DEFAULT   10 typeinfo name for __cxxabiv1::__foreign_exception
+   138: 00015d78    44 OBJECT  GLOBAL DEFAULT   13 vtable for __cxxabiv1::__class_type_info
+   139: 00007f78    32 FUNC    GLOBAL DEFAULT    7 __cxa_pure_virtual
+   140: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_key_delete
+   141: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_getspecific
+   142: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_setspecific
+   143: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_key_create
+   144: 00000000     0 FUNC    GLOBAL DEFAULT  UND abort
+   145: 000120b0     8 FUNC    GLOBAL DEFAULT    7 _Unwind_GetDataRelBase
+   146: 0001204c    44 FUNC    GLOBAL DEFAULT    7 _Unwind_GetRegionStart
+   147: 000120b8     8 FUNC    GLOBAL DEFAULT    7 _Unwind_GetTextRelBase
+   148: 000110cc    68 FUNC    GLOBAL DEFAULT    7 _Unwind_VRS_Set
+   149: 00012078    56 FUNC    GLOBAL DEFAULT    7 _Unwind_GetLanguageSpecificData
+   150: 00011060    68 FUNC    GLOBAL DEFAULT    7 _Unwind_VRS_Get
+   151: 0001200c    64 FUNC    GLOBAL DEFAULT    7 __gnu_unwind_frame
+   152: 00016008     4 OBJECT  GLOBAL DEFAULT   17 __cxxabiv1::__terminate_handler
+   153: 00016004     4 OBJECT  GLOBAL DEFAULT   17 __cxxabiv1::__unexpected_handler
+   154: 00007c4c    44 FUNC    GLOBAL DEFAULT    7 std::set_terminate(void (*)())
+   155: 00007c78    44 FUNC    GLOBAL DEFAULT    7 std::set_unexpected(void (*)())
+   156: 00011b6c    36 FUNC    GLOBAL DEFAULT    7 _Unwind_RaiseException
+   157: 00011bb4    36 FUNC    GLOBAL DEFAULT    7 _Unwind_Resume_or_Rethrow
+   158: 00007e4c    40 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__fundamental_type_info::~__fundamental_type_info()
+   159: 00015c60    32 OBJECT  GLOBAL DEFAULT   13 vtable for __cxxabiv1::__fundamental_type_info
+   160: 00007e74    28 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__fundamental_type_info::~__fundamental_type_info()
+   161: 00007e4c    40 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__fundamental_type_info::~__fundamental_type_info()
+   162: 000134fc    40 OBJECT  GLOBAL DEFAULT   10 typeinfo name for __cxxabiv1::__fundamental_type_info
+   163: 00015c80    12 OBJECT  GLOBAL DEFAULT   13 typeinfo for __cxxabiv1::__fundamental_type_info
+   164: 000158c8    16 OBJECT  WEAK   DEFAULT   13 typeinfo for decltype(nullptr) const*
+   165: 00015c98    36 OBJECT  GLOBAL DEFAULT   13 vtable for __cxxabiv1::__pointer_type_info
+   166: 000134f4     5 OBJECT  WEAK   DEFAULT   10 typeinfo name for decltype(nullptr) const*
+   167: 000158e8     8 OBJECT  WEAK   DEFAULT   13 typeinfo for decltype(nullptr)
+   168: 000158d8    16 OBJECT  WEAK   DEFAULT   13 typeinfo for decltype(nullptr)*
+   169: 000134f0     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for decltype(nullptr)*
+   170: 000134ec     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for decltype(nullptr)
+   171: 000158f0    16 OBJECT  WEAK   DEFAULT   13 typeinfo for decimal128 const*
+   172: 000134e4     5 OBJECT  WEAK   DEFAULT   10 typeinfo name for decimal128 const*
+   173: 00015910     8 OBJECT  WEAK   DEFAULT   13 typeinfo for decimal128
+   174: 00015900    16 OBJECT  WEAK   DEFAULT   13 typeinfo for decimal128*
+   175: 000134e0     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for decimal128*
+   176: 000134dc     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for decimal128
+   177: 00015918    16 OBJECT  WEAK   DEFAULT   13 typeinfo for decimal64 const*
+   178: 000134d4     5 OBJECT  WEAK   DEFAULT   10 typeinfo name for decimal64 const*
+   179: 00015938     8 OBJECT  WEAK   DEFAULT   13 typeinfo for decimal64
+   180: 00015928    16 OBJECT  WEAK   DEFAULT   13 typeinfo for decimal64*
+   181: 000134d0     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for decimal64*
+   182: 000134cc     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for decimal64
+   183: 00015940    16 OBJECT  WEAK   DEFAULT   13 typeinfo for decimal32 const*
+   184: 000134c4     5 OBJECT  WEAK   DEFAULT   10 typeinfo name for decimal32 const*
+   185: 00015960     8 OBJECT  WEAK   DEFAULT   13 typeinfo for decimal32
+   186: 00015950    16 OBJECT  WEAK   DEFAULT   13 typeinfo for decimal32*
+   187: 000134c0     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for decimal32*
+   188: 000134bc     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for decimal32
+   189: 00015968    16 OBJECT  WEAK   DEFAULT   13 typeinfo for long double const*
+   190: 000134b8     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for long double const*
+   191: 00015988     8 OBJECT  WEAK   DEFAULT   13 typeinfo for long double
+   192: 00015978    16 OBJECT  WEAK   DEFAULT   13 typeinfo for long double*
+   193: 000134b4     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for long double*
+   194: 000134b0     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for long double
+   195: 00015990    16 OBJECT  WEAK   DEFAULT   13 typeinfo for double const*
+   196: 000134ac     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for double const*
+   197: 000159b0     8 OBJECT  WEAK   DEFAULT   13 typeinfo for double
+   198: 000159a0    16 OBJECT  WEAK   DEFAULT   13 typeinfo for double*
+   199: 000134a8     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for double*
+   200: 000134a4     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for double
+   201: 000159b8    16 OBJECT  WEAK   DEFAULT   13 typeinfo for float const*
+   202: 000134a0     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for float const*
+   203: 000159d8     8 OBJECT  WEAK   DEFAULT   13 typeinfo for float
+   204: 000159c8    16 OBJECT  WEAK   DEFAULT   13 typeinfo for float*
+   205: 0001349c     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for float*
+   206: 00013498     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for float
+   207: 000159e0    16 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned long long const*
+   208: 00013494     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned long long const*
+   209: 00015a00     8 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned long long
+   210: 000159f0    16 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned long long*
+   211: 00013490     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned long long*
+   212: 0001348c     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned long long
+   213: 00015a08    16 OBJECT  WEAK   DEFAULT   13 typeinfo for long long const*
+   214: 00013488     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for long long const*
+   215: 00015a28     8 OBJECT  WEAK   DEFAULT   13 typeinfo for long long
+   216: 00015a18    16 OBJECT  WEAK   DEFAULT   13 typeinfo for long long*
+   217: 00013484     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for long long*
+   218: 00013480     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for long long
+   219: 00015a30    16 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned long const*
+   220: 0001347c     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned long const*
+   221: 00015a50     8 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned long
+   222: 00015a40    16 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned long*
+   223: 00013478     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned long*
+   224: 00013474     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned long
+   225: 00015a58    16 OBJECT  WEAK   DEFAULT   13 typeinfo for long const*
+   226: 00013470     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for long const*
+   227: 00015a78     8 OBJECT  WEAK   DEFAULT   13 typeinfo for long
+   228: 00015a68    16 OBJECT  WEAK   DEFAULT   13 typeinfo for long*
+   229: 0001346c     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for long*
+   230: 00013468     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for long
+   231: 00015a80    16 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned int const*
+   232: 00013464     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned int const*
+   233: 00015aa0     8 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned int
+   234: 00015a90    16 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned int*
+   235: 00013460     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned int*
+   236: 0001345c     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned int
+   237: 00015aa8    16 OBJECT  WEAK   DEFAULT   13 typeinfo for int const*
+   238: 00013458     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for int const*
+   239: 00015ac8     8 OBJECT  WEAK   DEFAULT   13 typeinfo for int
+   240: 00015ab8    16 OBJECT  WEAK   DEFAULT   13 typeinfo for int*
+   241: 00013454     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for int*
+   242: 00013450     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for int
+   243: 00015ad0    16 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned short const*
+   244: 0001344c     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned short const*
+   245: 00015af0     8 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned short
+   246: 00015ae0    16 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned short*
+   247: 00013448     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned short*
+   248: 00013444     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned short
+   249: 00015af8    16 OBJECT  WEAK   DEFAULT   13 typeinfo for short const*
+   250: 00013440     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for short const*
+   251: 00015b18     8 OBJECT  WEAK   DEFAULT   13 typeinfo for short
+   252: 00015b08    16 OBJECT  WEAK   DEFAULT   13 typeinfo for short*
+   253: 0001343c     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for short*
+   254: 00013438     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for short
+   255: 00015b20    16 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned char const*
+   256: 00013434     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned char const*
+   257: 00015b40     8 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned char
+   258: 00015b30    16 OBJECT  WEAK   DEFAULT   13 typeinfo for unsigned char*
+   259: 00013430     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned char*
+   260: 0001342c     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for unsigned char
+   261: 00015b48    16 OBJECT  WEAK   DEFAULT   13 typeinfo for signed char const*
+   262: 00013428     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for signed char const*
+   263: 00015b68     8 OBJECT  WEAK   DEFAULT   13 typeinfo for signed char
+   264: 00015b58    16 OBJECT  WEAK   DEFAULT   13 typeinfo for signed char*
+   265: 00013424     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for signed char*
+   266: 00013420     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for signed char
+   267: 00015b70    16 OBJECT  WEAK   DEFAULT   13 typeinfo for char const*
+   268: 0001341c     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for char const*
+   269: 00015b90     8 OBJECT  WEAK   DEFAULT   13 typeinfo for char
+   270: 00015b80    16 OBJECT  WEAK   DEFAULT   13 typeinfo for char*
+   271: 00013418     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for char*
+   272: 00013414     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for char
+   273: 00015b98    16 OBJECT  WEAK   DEFAULT   13 typeinfo for char32_t const*
+   274: 0001340c     5 OBJECT  WEAK   DEFAULT   10 typeinfo name for char32_t const*
+   275: 00015bb8     8 OBJECT  WEAK   DEFAULT   13 typeinfo for char32_t
+   276: 00015ba8    16 OBJECT  WEAK   DEFAULT   13 typeinfo for char32_t*
+   277: 00013408     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for char32_t*
+   278: 00013404     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for char32_t
+   279: 00015bc0    16 OBJECT  WEAK   DEFAULT   13 typeinfo for char16_t const*
+   280: 000133fc     5 OBJECT  WEAK   DEFAULT   10 typeinfo name for char16_t const*
+   281: 00015be0     8 OBJECT  WEAK   DEFAULT   13 typeinfo for char16_t
+   282: 00015bd0    16 OBJECT  WEAK   DEFAULT   13 typeinfo for char16_t*
+   283: 000133f8     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for char16_t*
+   284: 000133f4     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for char16_t
+   285: 00015be8    16 OBJECT  WEAK   DEFAULT   13 typeinfo for wchar_t const*
+   286: 000133f0     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for wchar_t const*
+   287: 00015c08     8 OBJECT  WEAK   DEFAULT   13 typeinfo for wchar_t
+   288: 00015bf8    16 OBJECT  WEAK   DEFAULT   13 typeinfo for wchar_t*
+   289: 000133ec     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for wchar_t*
+   290: 000133e8     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for wchar_t
+   291: 00015c10    16 OBJECT  WEAK   DEFAULT   13 typeinfo for bool const*
+   292: 000133e4     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for bool const*
+   293: 00015c30     8 OBJECT  WEAK   DEFAULT   13 typeinfo for bool
+   294: 00015c20    16 OBJECT  WEAK   DEFAULT   13 typeinfo for bool*
+   295: 000133e0     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for bool*
+   296: 000133dc     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for bool
+   297: 00015c38    16 OBJECT  WEAK   DEFAULT   13 typeinfo for void const*
+   298: 000133d8     4 OBJECT  WEAK   DEFAULT   10 typeinfo name for void const*
+   299: 000133d4     3 OBJECT  WEAK   DEFAULT   10 typeinfo name for void*
+   300: 000133d0     2 OBJECT  WEAK   DEFAULT   10 typeinfo name for void
+   301: 00007e90    28 FUNC    GLOBAL DEFAULT    7 std::set_new_handler(void (*)())
+   302: 00013524     1 OBJECT  GLOBAL DEFAULT   10 std::nothrow
+   303: 00007eac     8 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__pointer_type_info::__is_pointer_p() const
+   304: 00007eb4    40 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__pointer_type_info::~__pointer_type_info()
+   305: 00008488    40 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__pbase_type_info::~__pbase_type_info()
+   306: 00007edc    28 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__pointer_type_info::~__pointer_type_info()
+   307: 00007eb4    40 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__pointer_type_info::~__pointer_type_info()
+   308: 00007ef8   128 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__pointer_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
+   309: 00013528    36 OBJECT  GLOBAL DEFAULT   10 typeinfo name for __cxxabiv1::__pointer_type_info
+   310: 00015c8c    12 OBJECT  GLOBAL DEFAULT   13 typeinfo for __cxxabiv1::__pointer_type_info
+   311: 00015de0    12 OBJECT  GLOBAL DEFAULT   13 typeinfo for __cxxabiv1::__pbase_type_info
+   312: 000084cc   148 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+   313: 00000000     0 FUNC    GLOBAL DEFAULT  UND write
+   314: 00007f98    40 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+   315: 0000836c    40 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__class_type_info::~__class_type_info()
+   316: 00007fc0    28 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+   317: 00007f98    40 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+   318: 00007fdc    72 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+   319: 00008338    52 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+   320: 00008024   208 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+   321: 000080f4   100 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+   322: 00013568    37 OBJECT  GLOBAL DEFAULT   10 typeinfo name for __cxxabiv1::__si_class_type_info
+   323: 00015cf0    12 OBJECT  GLOBAL DEFAULT   13 typeinfo for __cxxabiv1::__si_class_type_info
+   324: 0000841c    76 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+   325: 000082c8    92 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+   326: 00015da8    12 OBJECT  GLOBAL DEFAULT   13 typeinfo for __cxxabiv1::__class_type_info
+   327: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcmp
+   328: 00008220    16 FUNC    GLOBAL DEFAULT    7 std::bad_cast::what() const
+   329: 00008230    40 FUNC    GLOBAL DEFAULT    7 std::bad_cast::~bad_cast()
+   330: 00008258    28 FUNC    GLOBAL DEFAULT    7 std::bad_cast::~bad_cast()
+   331: 000135a0    12 OBJECT  GLOBAL DEFAULT   10 typeinfo name for std::bad_cast
+   332: 00008274    16 FUNC    GLOBAL DEFAULT    7 std::bad_typeid::what() const
+   333: 00008284    40 FUNC    GLOBAL DEFAULT    7 std::bad_typeid::~bad_typeid()
+   334: 000082ac    28 FUNC    GLOBAL DEFAULT    7 std::bad_typeid::~bad_typeid()
+   335: 000135cc    15 OBJECT  GLOBAL DEFAULT   10 typeinfo name for std::bad_typeid
+   336: 00008324    20 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+   337: 00008394    28 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__class_type_info::~__class_type_info()
+   338: 0000836c    40 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__class_type_info::~__class_type_info()
+   339: 000083b0   108 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+   340: 000135dc    34 OBJECT  GLOBAL DEFAULT   10 typeinfo name for __cxxabiv1::__class_type_info
+   341: 00008560   432 FUNC    GLOBAL DEFAULT    7 __gnu_cxx::__verbose_terminate_handler()
+   342: 00015db8    36 OBJECT  GLOBAL DEFAULT   13 vtable for __cxxabiv1::__pbase_type_info
+   343: 000084b0    28 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__pbase_type_info::~__pbase_type_info()
+   344: 00008488    40 FUNC    GLOBAL DEFAULT    7 __cxxabiv1::__pbase_type_info::~__pbase_type_info()
+   345: 00013600    34 OBJECT  GLOBAL DEFAULT   10 typeinfo name for __cxxabiv1::__pbase_type_info
+   346: 0000f9a0    44 FUNC    GLOBAL DEFAULT    7 __cxa_current_exception_type
+   347: 0000f834   320 FUNC    GLOBAL DEFAULT    7 __cxa_demangle
+   348: 00000000     0 FUNC    GLOBAL DEFAULT  UND fwrite
+   349: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputs
+   350: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputc
+   351: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __sF
+   352: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp
+   353: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy
+   354: 00000000     0 FUNC    GLOBAL DEFAULT  UND realloc
+   355: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen
+   356: 00000000     0 FUNC    GLOBAL DEFAULT  UND sprintf
+   357: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncmp
+   358: 000122ac   636 FUNC    GLOBAL DEFAULT    7 __gcc_personality_v0
+   359: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy
+   360: 0000f974    44 FUNC    GLOBAL DEFAULT    7 __gcclibcxx_demangle_callback
+   361: 0000f9cc     0 FUNC    GLOBAL DEFAULT    7 __aeabi_drsub
+   362: 0000f9d4   688 FUNC    GLOBAL DEFAULT    7 __subdf3
+   363: 0000f9d4   688 FUNC    GLOBAL DEFAULT    7 __aeabi_dsub
+   364: 0000f9d8   684 FUNC    GLOBAL DEFAULT    7 __adddf3
+   365: 0000f9d8   684 FUNC    GLOBAL DEFAULT    7 __aeabi_dadd
+   366: 0000fc84    36 FUNC    GLOBAL DEFAULT    7 __floatunsidf
+   367: 0000fc84    36 FUNC    GLOBAL DEFAULT    7 __aeabi_ui2d
+   368: 0000fca8    40 FUNC    GLOBAL DEFAULT    7 __floatsidf
+   369: 0000fca8    40 FUNC    GLOBAL DEFAULT    7 __aeabi_i2d
+   370: 0000fcd0    64 FUNC    GLOBAL DEFAULT    7 __extendsfdf2
+   371: 0000fd10   116 FUNC    GLOBAL DEFAULT    7 __floatundidf
+   372: 0000fd10   116 FUNC    GLOBAL DEFAULT    7 __aeabi_ul2d
+   373: 0000fd24    96 FUNC    GLOBAL DEFAULT    7 __floatdidf
+   374: 0000fd24    96 FUNC    GLOBAL DEFAULT    7 __aeabi_l2d
+   375: 00000000     0 FUNC    WEAK   DEFAULT  UND __gnu_Unwind_Find_exidx
+   376: 000114d0     8 FUNC    WEAK   DEFAULT    7 __aeabi_unwind_cpp_pr2
+   377: 00011a9c     0 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Restore_VFP_D
+   378: 00011a8c     0 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Restore_VFP
+   379: 00011aac     0 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Restore_VFP_D_16_to_31
+   380: 00011abc     0 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Restore_WMMXD
+   381: 00011b44     0 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Restore_WMMXC
+   382: 00011a78    20 FUNC    GLOBAL DEFAULT    7 restore_core_regs
+   383: 00011c78   916 FUNC    GLOBAL DEFAULT    7 __gnu_unwind_execute
+   384: 000114e8   856 FUNC    GLOBAL DEFAULT    7 _Unwind_VRS_Pop
+   385: 00011aa4     0 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Save_VFP_D
+   386: 00011a94     0 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Save_VFP
+   387: 00011ab4     0 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Save_VFP_D_16_to_31
+   388: 00011b00     0 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Save_WMMXD
+   389: 00011b58     0 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Save_WMMXC
+   390: 00011840     8 FUNC    GLOBAL DEFAULT    7 _Unwind_GetCFA
+   391: 00011848   164 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_RaiseException
+   392: 000118ec    28 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_ForcedUnwind
+   393: 00011908   108 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Resume
+   394: 00011974    32 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Resume_or_Rethrow
+   395: 000119b8   192 FUNC    GLOBAL DEFAULT    7 __gnu_Unwind_Backtrace
+   396: 00011a78    20 FUNC    GLOBAL DEFAULT    7 __restore_core_regs
+   397: 00011b6c    36 FUNC    GLOBAL DEFAULT    7 ___Unwind_RaiseException
+   398: 00011b90    36 FUNC    GLOBAL DEFAULT    7 ___Unwind_Resume
+   399: 00011bb4    36 FUNC    GLOBAL DEFAULT    7 ___Unwind_Resume_or_Rethrow
+   400: 00011bd8    36 FUNC    GLOBAL DEFAULT    7 ___Unwind_ForcedUnwind
+   401: 00011bd8    36 FUNC    GLOBAL DEFAULT    7 _Unwind_ForcedUnwind
+   402: 00011bfc    36 FUNC    GLOBAL DEFAULT    7 ___Unwind_Backtrace
+   403: 00011bfc    36 FUNC    GLOBAL DEFAULT    7 _Unwind_Backtrace
+   404: 0001600c     0 NOTYPE  GLOBAL DEFAULT  ABS _edata
+   405: 0001600c     0 NOTYPE  GLOBAL DEFAULT  ABS __bss_start
+   406: 0001af41     0 NOTYPE  GLOBAL DEFAULT  ABS _end

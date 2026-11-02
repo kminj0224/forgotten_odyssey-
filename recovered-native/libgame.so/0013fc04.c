@@ -1,0 +1,35 @@
+/* Decompiled reference only. Not original C/C++; not built into APK. */
+/* Address: 0013fc04  Symbol: copyWithZone */
+
+/* cocos2d::CCProgressTo::copyWithZone(cocos2d::CCZone*) */
+
+int * __thiscall cocos2d::CCProgressTo::copyWithZone(CCProgressTo *this,CCZone *param_1)
+
+{
+  int *this_00;
+  CCZone *pCVar1;
+  undefined8 uVar2;
+  
+  if (param_1 != (CCZone *)0x0) {
+    this_00 = *(int **)param_1;
+    pCVar1 = (CCZone *)0x0;
+    if (this_00 != (int *)0x0) goto LAB_0013fc48;
+  }
+  this_00 = (int *)operator_new(0x34);
+  memset(this_00,0,0x34);
+  CCAction::CCAction((CCAction *)this_00);
+  this_00[8] = 0;
+  *this_00 = *(int *)(DAT_0013fc68 + 0x13fc36) + 8;
+  param_1 = (CCZone *)operator_new(4);
+  CCZone::CCZone(param_1,(CCObject *)this_00);
+  pCVar1 = param_1;
+LAB_0013fc48:
+  uVar2 = CCActionInterval::copyWithZone((CCActionInterval *)this,param_1);
+  initWithDuration((float)uVar2,(float)((ulonglong)uVar2 >> 0x20));
+  if (pCVar1 != (CCZone *)0x0) {
+    operator_delete(pCVar1);
+  }
+  return this_00;
+}
+
+

@@ -1,0 +1,113 @@
+/* Decompiled reference only. Not original C/C++; not built into APK. */
+/* Address: 00126230  Symbol: OpenPopup */
+
+/* GameScene::OpenPopup(int, int) */
+
+void GameScene::OpenPopup(int param_1,int param_2)
+
+{
+  int *piVar1;
+  undefined4 uVar2;
+  undefined4 *puVar3;
+  CCFiniteTimeAction *pCVar4;
+  undefined *puVar5;
+  undefined uVar6;
+  code *pcVar7;
+  int iVar8;
+  undefined4 uVar9;
+  int *unaff_r5;
+  float in_s0;
+  float fVar10;
+  float extraout_s0;
+  float extraout_s0_00;
+  float in_s1;
+  undefined8 uVar11;
+  undefined local_44;
+  undefined local_43;
+  undefined local_40;
+  undefined local_3f;
+  undefined local_3c [4];
+  undefined auStack_38 [4];
+  _ccColor4B local_34;
+  undefined local_33;
+  undefined local_32;
+  undefined local_31;
+  CCPoint aCStack_30 [8];
+  CCPoint aCStack_28 [20];
+  
+  iVar8 = *(int *)(DAT_00126408 + 0x12623c);
+  local_31 = 0x7f;
+  local_34 = (_ccColor4B)0x0;
+  local_33 = 0;
+  local_32 = 0;
+  piVar1 = (int *)cocos2d::CCLayerColor::layerWithColorWidthHeight(&local_34,in_s0,in_s1);
+  uVar9 = *(undefined4 *)(iVar8 + 4);
+  pcVar7 = *(code **)(*piVar1 + 0x3c);
+  uVar2 = __mulsf3(uVar9,0x3f000000);
+  uVar9 = __divsf3(uVar9,DAT_00126410);
+  uVar11 = __addsf3(uVar2,uVar9);
+  cocos2d::CCPoint::CCPoint(aCStack_30,(float)uVar11,(float)((ulonglong)uVar11 >> 0x20));
+  (*pcVar7)(piVar1,aCStack_30);
+  fVar10 = (float)(**(code **)(*piVar1 + 0x134))(piVar1,0);
+  if (param_2 == 0) {
+    unaff_r5 = (int *)cocos2d::CCLabelTTF::labelWithString
+                                ((char *)(DAT_00126414 + 0x1262a8),(char *)(DAT_00126418 + 0x1262aa)
+                                 ,fVar10);
+    puVar5 = &local_44;
+    local_44 = 0x52;
+    local_43 = 0xc0;
+    pcVar7 = *(code **)(*unaff_r5 + 0xf4);
+    uVar6 = 0xfd;
+LAB_001262ea:
+    puVar5[2] = uVar6;
+  }
+  else {
+    if (param_2 == 1) {
+      unaff_r5 = (int *)cocos2d::CCLabelTTF::labelWithString
+                                  ((char *)(DAT_00126420 + 0x1262d2),
+                                   (char *)(DAT_00126424 + 0x1262d4),fVar10);
+      puVar5 = &local_40;
+      pcVar7 = *(code **)(*unaff_r5 + 0xf4);
+      local_40 = 0xe7;
+      local_3f = 0x6f;
+      uVar6 = 0x20;
+      goto LAB_001262ea;
+    }
+    if (param_2 == 2) {
+      unaff_r5 = (int *)cocos2d::CCLabelTTF::labelWithString
+                                  ((char *)(DAT_00126428 + 0x1262fe),
+                                   (char *)(DAT_0012642c + 0x126300),fVar10);
+      puVar5 = local_3c;
+      pcVar7 = *(code **)(*unaff_r5 + 0xf4);
+    }
+    else {
+      if (param_2 != 3) goto LAB_00126338;
+      unaff_r5 = (int *)cocos2d::CCLabelTTF::labelWithString
+                                  ((char *)(DAT_00126430 + 0x12631e),
+                                   (char *)(DAT_00126434 + 0x126320),fVar10);
+      puVar5 = auStack_38;
+      pcVar7 = *(code **)(*unaff_r5 + 0xf4);
+    }
+    *puVar5 = 0xff;
+    puVar5[1] = 0xff;
+    puVar5[2] = 0;
+  }
+  (*pcVar7)(unaff_r5);
+LAB_00126338:
+  pcVar7 = *(code **)(*unaff_r5 + 0x3c);
+  puVar3 = (undefined4 *)(**(code **)(*piVar1 + 0x7c))(piVar1);
+  __mulsf3(*puVar3,0x3f000000);
+  iVar8 = (**(code **)(*piVar1 + 0x7c))(piVar1);
+  uVar11 = __mulsf3(*(undefined4 *)(iVar8 + 4),0x3f000000);
+  cocos2d::CCPoint::CCPoint(aCStack_28,(float)uVar11,(float)((ulonglong)uVar11 >> 0x20));
+  (*pcVar7)(unaff_r5,aCStack_28);
+  (**(code **)(*piVar1 + 0xcc))(piVar1,unaff_r5,0,0);
+  fVar10 = (float)(**(code **)(*(int *)param_1 + 0xcc))(param_1,piVar1,6,6);
+  pCVar4 = (CCFiniteTimeAction *)cocos2d::CCFadeIn::actionWithDuration(fVar10);
+  uVar2 = cocos2d::CCDelayTime::actionWithDuration(extraout_s0);
+  uVar9 = cocos2d::CCFadeOut::actionWithDuration(extraout_s0_00);
+                    /* WARNING: Subroutine does not return */
+  cocos2d::CCSequence::actions(pCVar4,uVar2,uVar9,0);
+}
+
+
